@@ -1,4 +1,4 @@
-my.greeting: Hello
+my.greeting: Hello from config server
 
 app:
     name: My App
@@ -6,6 +6,6 @@ app:
 
 
 db:
-    connection: "{connectionString: 'http://kcscdmckecmekm', username: 'foo', password: 'pass'}"
+    connection: "{connectionString: 'http://config', username: 'Config User', password: 'pass'}"
     host: 127.0.0.1
     port: 1200
